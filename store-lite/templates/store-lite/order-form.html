@@ -1,0 +1,15 @@
+{% extends 'icebreakers/base.html' %}
+
+{% block content %}
+	<h1>IceBreaker Hockey Store</h1>
+	<h2>Coming Soon</h2>
+	<form action="{% url 'store' %}" method="post">
+		{% csrf_token %}
+
+		{{ form }}
+
+		<div class="text-center">
+			<input class="btn btn-lg btn-primary" type="submit" value="Submit" />
+		</div>
+	</form>
+{% endblock %}
