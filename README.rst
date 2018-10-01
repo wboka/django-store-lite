@@ -24,7 +24,7 @@ Quick start
         'storefront',
     ]
 
-2. Include the store-lite URLconf in your project urls.py like this::
+2. Include the storefront URLconf in your project urls.py like this::
 
     url(r'^store/', include('storefront.urls')),
 

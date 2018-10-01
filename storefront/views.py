@@ -9,4 +9,4 @@ def store(request):
     else:
         form = OrderForm()
 
-    return render(request, 'store-lite/order-form.html', {'form': form})
+    return render(request, 'storefront/order-form.html', {'form': form})
