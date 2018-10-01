@@ -1,7 +1,1 @@
 language: python
-
-install:
-  - pip install -r pip-requirements.txt
-
-script:
-  - python manage.py test
