@@ -9,7 +9,7 @@ Detailed documentation is in the "docs" directory. Coming soon.
 Install
 ---------
 
-1. Remove "store-lite" from Github like this::
+1. Install "store-lite" from Github like this::
 
     $ pip install https://github.com/wboka/django-store-lite.git
 
